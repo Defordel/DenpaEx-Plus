@@ -1,21 +1,23 @@
-![Supported Platforms](https://img.shields.io/badge/supported%20platforms-windows,%20linux,%20android,%20macos,%20ios-blue)
-![GitHub Commits](https://img.shields.io/github/commits-since/acc0untz0138/DenpaEx/latest)
-[![Repo Size](https://img.shields.io/github/repo-size/acc0untz0138/DenpaEx)](https://github.com/acc0untz0138/DenpaEx)
-[![GitHub Issues](https://img.shields.io/github/issues/acc0untz0138/DenpaEx)](https://github.com/acc0untz0138/DenpaEx/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/acc0untz0138/DenpaEx)](https://github.com/acc0untz0138/DenpaEx/pulls)
-![GitHub All Downloads](https://img.shields.io/github/downloads/acc0untz0138/DenpaEx/total)
+![Supported Platforms](https://img.shields.io/badge/supported%20platforms-windows%20(soon%20linux,%20android,%20macos,%20ios)-blue)
+[![Repository Size](https://img.shields.io/github/repo-size/acc0untz0138/DenpaEx)](https://github.com/acc0untz0138/DenpaEx)
+![Commits](https://img.shields.io/github/commits-since/acc0untz0138/DenpaEx/latest)
+[![Issues](https://img.shields.io/github/issues/acc0untz0138/DenpaEx)](https://github.com/acc0untz0138/DenpaEx/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/acc0untz0138/DenpaEx)](https://github.com/acc0untz0138/DenpaEx/pulls)
+![Download Count](https://img.shields.io/github/downloads/acc0untz0138/DenpaEx/total)
 [![Denpa Engine Discord](https://img.shields.io/discord/993277169876873326?label=discord)](https://discord.gg/BFaMfmTNaa)
 [![DenpaEx Discord](https://img.shields.io/discord/993277169876873326?label=denpaex%20discord)](https://discord.gg/9yzdrdDjdB)
 
+[![Star History Chart](https://api.star-history.com/svg?repos=acc0untz0138/DenpaEx&type=Timeline)](https://star-history.com/#acc0untz0138/DenpaEx&Timeline)
+
 # Friday Night Funkin': DenpaEx
 
-## WARNING!
+## THANKS!
 
-ALL CREDIT GOES TO THE PSYCH, DENPA, JS, HRK, CODENAME ENGINE, AND MANY OTHER DEVELOPERS! THIS FORK ONLY HAS A HANDFUL OF FEATURES THAT WOULDNT BE DONE WITHOUT THEIR HELP! MANY THANKS AND MUCH LOVE TO THEM FOR EVERYTHING!
+I WOULD LIKE TO THANK AND CREDIT EVERYONE IN THE FNF COMMUNITY THAT HAS HELPED AND/OR SUPPORTED IN THE MAKING OF THIS PROJECT! THIS ENGINE WOULDNT HAVE BEEN POSSIBLE WITHOUT Y'ALLS HELP! BIG THANKS AND MUCH LOVE!
 
 ## Synopsis
 
-DenpaEx is a Denpa Engine Fork made by justAMZ. It adds a small amount of extra features on top of normal Denpa Engine, created by the likes of BlueVapor1234, Toadette8394, YanniZ06, jorge, MemeHoovy, Ziad, and much much more. Being intended to enhance the user experience, improve game performance, and increase the capabilities and efficiency of mod making, Denpa Engine is the most feature ready FNF engine to date. With features ranging from HScript and Lua scripting, to fully fitted editors, the engine is ready to go right out of the box.
+DenpaEx is a Denpa Engine Fork made by justAMZ. It adds a small amount of extra features on top of normal Denpa Engine, created by the likes of Toadette8394, YanniZ06, jorge, MemeHoovy, Ziad, and much much more. Being intended to enhance the user experience, improve game performance, and increase the capabilities and efficiency of mod making, Denpa Engine is the most feature ready FNF engine to date. With features ranging from HScript and Lua scripting, to fully fitted editors, the engine is ready to go right out of the box.
 
 ## DenpaEx Team
 
@@ -69,49 +71,6 @@ Ziad - Multiplayer Support
 
 Shygee - Additional Programmer
 
-## DenpaEx Feature List
-
-01) Custom logo, name & icon.
-02) Dark Mode in the UI.
-03) Better looking FreeplayState (toggleable) with a search box.
-04) Restored the Friday Night Funkin' background music.
-05) Optimized Auto Play.
-06) Support for other systems like Linux, Android, MacOS and iOS (EXPERIMENTAL).
-06) GLSL Shader Compatibility (EXPERIMENTAL).
-07) Hard-Coded shaders from JS Engine (ChromaticAbberation, PulseEffect, GlitchEffect, VCREffect, BloomEffect, etc.).
-08) 202-minute long song support.
-09) Added blank character (name is "null").
-10) Restored easy charts.
-11) Customizable character icons (Psych & DenpaEx).
-12) Custom noteskin colors (Default, Greyscale, Rainbow, Character & Quant).
-13) Updated ChartingState (includes total notes counter, custom max BPM, speed, zoom and note density & fixed text).
-14) Render Mode for showcasing charts (requires ffmpeg).
-15) Modified Debug Keys script in assets/scripts (made by Kevin Kuntz, edited slightly by me).
-16) Restored the miss sound toggle.
-17) Polished some text here and there in the game.
-
-### Customization Options
-
-01) Toggleable Rating Pop-ups (includes a better Kade score pop-up, better perfect score pop-up & better #1 pop-up).
-02) Toggleable Timing Pop-up.
-03) Toggleable Modifier Icons.
-04) Toggleable Ratings Display (includes a total hits counter).
-05) Toggleable Health Bar.
-06) Toggleable Note Strum Animation.
-07) Toggleable Note Splashes.
-08) Customizable Score Display.
-09) Customizable Time Bar.
-
-## Upcoming Features (NOT FINAL)
-
-01) Add keybind reminders on the start of songs.
-02) Add animated characters in the bottom left of the chart editor which visualize the chart when playing.
-02) Add Away3D Support.
-
-## Issues
-
-01) Problems with GLSL/.frag Shaders on Cameras (camHUD, camGame, camOther) working in-game only in the first song you choose, meaning you have to close and reopen the game every time to have them working. 
-
 ## License Summary
 
 ### Permitted Actions
@@ -163,13 +122,54 @@ This license agreement is subject to change at any time, and continued use of th
 1) Download the latest source .zip/.gz file.
 2) Extract the file using your file archiver of choice.
 3) Install Haxe from <https://haxe.org> and finish the setup.
-4) Run the QUICK SETUP.bat file to install the haxe libraries needed (includes Visual Studio Community).
+4) Run the QUICK SETUP.bat file to install the haxe libraries needed (includes Visual Studio Community & automatically compiled the DenpaEx crash handler for the best experience).
 5) Go through the Visual Studio Community Setup.
-6) Run any of the batch files in the batch folder of the source code or continue to step 7.
-7) Go to DenpaEx/crshhndlr, open CMD in that folder and compile for the OS of your choice ('lime test [platform] [-flag (optional)]').
-8) Go back to the DenpaEx folder and do the same.
+6) Run any of the batch files in the batch folder of the source code OR go back to the DenpaEx folder and compile for the OS of your choice ('lime test [platform] [-flag (optional)]').
 
-## Features (Unfinished List!)
+## DenpaEx Feature List
+
+01) Custom logo, name & icon.
+02) Dark Mode in the UI.
+03) Better looking FreeplayState (toggleable) with a search box.
+04) Restored the Friday Night Funkin' background music.
+05) Optimized Auto Play.
+06) Support for other systems like Linux, Android, MacOS and iOS (EXPERIMENTAL).
+06) GLSL Shader Compatibility (EXPERIMENTAL).
+07) Hard-Coded shaders from JS Engine (ChromaticAbberation, PulseEffect, GlitchEffect, VCREffect, BloomEffect, etc.).
+08) 202-minute long song support.
+09) Added blank character (name is "null").
+10) Restored easy charts.
+11) Customizable character icons (Psych & DenpaEx).
+12) Custom noteskin colors (Default, Greyscale, Rainbow, Character & Quant).
+13) Updated ChartingState (includes total notes counter, custom max BPM, speed, zoom and note density & fixed text).
+14) Render Mode for showcasing charts (requires ffmpeg).
+15) Modified Debug Keys script in assets/scripts (made by Kevin Kuntz, edited slightly by me).
+16) Restored the miss sound toggle.
+17) Polished some text here and there in the game.
+
+### Customization Options
+
+01) Toggleable Rating Pop-ups (includes a better Kade score pop-up, better perfect score pop-up & better #1 pop-up).
+02) Toggleable Timing Pop-up.
+03) Toggleable Modifier Icons.
+04) Toggleable Ratings Display (includes a total hits counter).
+05) Toggleable Health Bar.
+06) Toggleable Note Strum Animation.
+07) Toggleable Note Splashes.
+08) Customizable Score Display.
+09) Customizable Time Bar.
+
+## Upcoming Features (NOT FINAL)
+
+01) Add keybind reminders on the start of songs.
+02) Add animated characters in the bottom left of the chart editor which visualize the chart when playing.
+02) Add Away3D Support.
+
+## Issues
+
+01) Problems with GLSL/.frag Shaders on Cameras (camHUD, camGame, camOther) working in-game only in the first song you choose, meaning you have to close and reopen the game every time to have them working. 
+
+## Denpa Engine Features
 
 ### Anti-Crash Functionality
 

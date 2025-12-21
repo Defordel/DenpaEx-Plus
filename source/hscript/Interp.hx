@@ -778,6 +778,10 @@ class Interp {
 				return expr(e);
 			case ECheckType(e, _):
 				return expr(e);
+			case ECast(e, _):
+				return expr(e);
+			case EForGen(it, e):
+				return null;
 		}
 		return null;
 	}
