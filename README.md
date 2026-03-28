@@ -8,7 +8,7 @@
 
 [![Star History Chart](https://api.star-history.com/svg?repos=acc0untz0138/DenpaEx&type=Timeline)](https://star-history.com/#acc0untz0138/DenpaEx&Timeline)
 
-# Friday Night Funkin': DenpaEx
+# Friday Night Funkin': DenpaEx Plus
 
 ## THANKS!
 
