@@ -521,6 +521,8 @@ This license agreement is subject to change at any time, and continued use of th
 - The Engine does not support adding haxelibs without source code.
 - The Engine is constrained to a modified HaxeFlixel's capabilities.
 
+## About DenpaEKs's noteskin
 
+- You're free to use it however you want with credit! Just don't claim it as your own.
 
 real :100:
